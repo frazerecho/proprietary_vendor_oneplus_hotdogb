@@ -261,10 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hotdogb/proprietary/odm/firmware/shuntai24k_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/shuntai24k_rtp.bin \
     vendor/oneplus/hotdogb/proprietary/odm/firmware/t-jingle_RTP.bin:$(TARGET_COPY_OUT_ODM)/firmware/t-jingle_RTP.bin \
     vendor/oneplus/hotdogb/proprietary/odm/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_ODM)/firmware/wentai24k_rtp.bin \
-    vendor/oneplus/hotdogb/proprietary/odm/lib64/camera/com.qti.sensor.imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx471.so \
-    vendor/oneplus/hotdogb/proprietary/odm/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx481.so \
-    vendor/oneplus/hotdogb/proprietary/odm/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx586.so \
-    vendor/oneplus/hotdogb/proprietary/odm/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.s5k3m5.so \
     vendor/oneplus/hotdogb/proprietary/odm/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin \
     vendor/oneplus/hotdogb/proprietary/odm/lib64/camera/com.qti.sensormodule.ofilm_imx481_no_otp.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ofilm_imx481_no_otp.bin \
     vendor/oneplus/hotdogb/proprietary/odm/lib64/camera/com.qti.sensormodule.ofilm_imx481_z_865_t0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ofilm_imx481_z_865_t0.bin \
@@ -756,6 +752,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/hotdogb/proprietary/vendor/firmware/ringtone_Harping_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ringtone_Harping_RTP.bin \
     vendor/oneplus/hotdogb/proprietary/vendor/firmware/shuntai24k_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/shuntai24k_rtp.bin \
     vendor/oneplus/hotdogb/proprietary/vendor/firmware/t-jingle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/t-jingle_RTP.bin \
-    vendor/oneplus/hotdogb/proprietary/vendor/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wentai24k_rtp.bin \
-    vendor/oneplus/hotdogb/proprietary/vendor/lib/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msmnile.so \
-    vendor/oneplus/hotdogb/proprietary/vendor/lib64/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msmnile.so
+    vendor/oneplus/hotdogb/proprietary/vendor/firmware/wentai24k_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wentai24k_rtp.bin
+
+PRODUCT_PACKAGES += \
+    audio.primary.msmnile \
+    com.qti.sensor.imx471 \
+    com.qti.sensor.imx481 \
+    com.qti.sensor.imx586 \
+    com.qti.sensor.s5k3m5

@@ -25,7 +25,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.msmnile.so"],
-			shared_libs: ["libbase", "liblog", "libcutils", "libtinyalsa", "libtinycompress", "libaudioroute", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "libaudio_log_utils", "vendor.qti.hardware.audiohalext@1.0", "android.hardware.sensors@1.0", "libhardware", "libhardware_legacy", "libhidltransport", "libhwbinder", "libaudioEngineerTest", "android.hardware.power@1.2", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "liblog", "libcutils", "libtinyalsa", "libtinycompress", "libaudioroute", "libaudioutils", "libexpat", "libhidlbase", "libprocessgroup", "libutils", "android.hardware.sensors@1.0", "libhardware", "libhardware_legacy", "libhidltransport", "libhwbinder", "android.hardware.power@1.2", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
